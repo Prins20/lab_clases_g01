@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>ejercicio.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ejercicio.py</font>
+</center></td></tr></table>
+<pre><span class="s0">nombre</span><span class="s1">= </span><span class="s2">&quot;Alicia&quot;</span>
+<span class="s0">edad</span><span class="s1">= </span><span class="s3">32</span>
+<span class="s0">profesion</span><span class="s1">= </span><span class="s2">&quot;Bióloga&quot;</span>
+
+<span class="s0">nombre1</span><span class="s1">= </span><span class="s2">&quot;Princesa&quot;</span>
+<span class="s0">edad1</span><span class="s1">= </span><span class="s3">31</span>
+<span class="s0">profesion1</span><span class="s1">= </span><span class="s2">&quot;Microbióloga&quot;</span>
+
+<span class="s0">lista1 </span><span class="s1">= []</span>
+<span class="s0">lista2</span><span class="s1">= []</span>
+
+<span class="s0">lista1</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">nombre</span><span class="s1">)</span>
+<span class="s0">lista1</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">edad</span><span class="s1">)</span>
+<span class="s0">lista1</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">profesion</span><span class="s1">)</span>
+
+<span class="s0">lista2</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">nombre1</span><span class="s1">)</span>
+<span class="s0">lista2</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">edad1</span><span class="s1">)</span>
+<span class="s0">lista2</span><span class="s1">.</span><span class="s0">append</span><span class="s1">(</span><span class="s0">profesion1</span><span class="s1">)</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;Elementos de lista 1 son:{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">lista1</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;Elementos de lista 2 son:{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">lista2</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;--------------------------------------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">suma</span><span class="s1">= </span><span class="s0">lista1</span><span class="s1">[</span><span class="s3">1</span><span class="s1">]+</span><span class="s0">lista2</span><span class="s1">[</span><span class="s3">1</span><span class="s1">]</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La suma de las listas es :{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">suma</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;--------------------------------------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">suma2</span><span class="s1">= </span><span class="s0">lista1</span><span class="s1">+</span><span class="s0">lista2</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La suma de las listas es :{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">suma2</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;--------------------------------------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">lista2</span><span class="s1">.</span><span class="s0">reverse</span><span class="s1">()</span>
+<span class="s0">lista1</span><span class="s1">.</span><span class="s0">reverse</span><span class="s1">()</span>
+<span class="s0">suma_inversa</span><span class="s1">= </span><span class="s0">lista2 </span><span class="s1">+ </span><span class="s0">lista1</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La lista 1 al reves es: {}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">lista1</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La lista 2 al reves es: {}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">lista2</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La suma de la lista inversa es :{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">suma_inversa</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;--------------------------------------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">suma_inversa</span><span class="s1">.</span><span class="s0">remove</span><span class="s1">(</span><span class="s3">32</span><span class="s1">)</span>
+<span class="s0">suma_inversa</span><span class="s1">.</span><span class="s0">remove</span><span class="s1">(</span><span class="s3">31</span><span class="s1">)</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;La lista al reves es: {}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">suma_inversa</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;--------------------------------------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">lista2</span><span class="s1">.</span><span class="s0">clear</span><span class="s1">()</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;lista 2 actualizada:{}&quot;</span><span class="s1">.</span><span class="s0">format</span><span class="s1">(</span><span class="s0">lista2</span><span class="s1">))</span></pre>
+</body>
+</html>
